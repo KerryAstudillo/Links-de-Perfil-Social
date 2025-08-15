@@ -72,6 +72,14 @@ p{
     gap: 20px;
 }
 
+.social_links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
 .links_section button{
     width: 250px;
     height: 35px;
@@ -89,16 +97,17 @@ p{
     color: hsl(0, 0%, 12%);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
     .main_container {
         width: 70%;
-        height: 80%;
+        height: 85%;
     }
     
     .profile_image img {
-        width: 60px;
-        height: 60px;
+        width: 75px;
+        height: 75px;
         gap: -5px;
+        margin-top: 15px;
     }
 
     .profile_image h2 {
